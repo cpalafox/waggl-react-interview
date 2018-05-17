@@ -74,12 +74,15 @@ class App extends React.Component {
         desc: "description of the fish",
         image: "url or filepath",
         name: "name",
-        price: 1243,      // if you do formatPrice(price) it would turn to $12.43
+        price: 1243,
         status: "available"    // or unavailable
       },
       fish2: { ... }
       fish3: { ... }
     }
+    
+    There's a formatPrice method in the helper.js file that you could use to give it the right format:
+    1243 => $12.43
   */
   
   
