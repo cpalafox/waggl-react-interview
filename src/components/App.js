@@ -67,7 +67,7 @@ class App extends React.Component {
   }
   
   /* 
-    this.fishes is an object, each object contains:
+    this.state.fishes is an object, each object contains:
     
     { 
       fish1: { 
